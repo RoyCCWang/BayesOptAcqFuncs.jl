@@ -1,0 +1,19 @@
+name = "BayesOptAcqFuncs"
+uuid = "c92c07f7-79e0-4c96-b7d8-644755b8e616"
+authors = ["Roy Chih Chung Wang"]
+version = "0.2.2"
+
+[deps]
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+RKHSRegularization = "da5e2df6-2169-4d6c-a246-0eaf9ec197ca"
+SpecialFunctions = "276daf66-3868-5448-9aa4-cd146d93841b"
+Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
+
+[compat]
+julia = "1.6"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
